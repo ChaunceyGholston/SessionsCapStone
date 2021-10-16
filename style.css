@@ -1,0 +1,41 @@
+h1{
+  box-sizing: border-box;
+  font-family: 'Rock Salt', cursive;
+  font-size: 50px;
+  font-weight:100;
+  text-align: center;
+}
+.navbar {
+  text-align: center;
+  list-style: none;
+  padding: 5px;
+  display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2{
+  font-family: 'Megrim', cursive;
+}
+body{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img2{
+  width: 50em;
+
+}
+
+.actions {
+  padding: 0 20px 20px 20px;
+  width: 600px;
+  border: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom-color: black;
+  border-top: black;
+  border-right: black;
+  padding: 0 20px 20 px 20px;
+  list-style-type: none;
+  display: inline-flex;
+}
