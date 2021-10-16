@@ -5,7 +5,7 @@ export default links => `
       ${links
         .map(
           el =>
-            `<li><a href="/${el.title}" title="${el.title}" data-navigo >${el.text}</a></li>`
+            `<li><a href="/${el.title}" title="${el.title}" data-navigo>${el.text}</a></li>`
         )
         .join("")}
     </ul>

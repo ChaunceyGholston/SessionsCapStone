@@ -1,5 +1,4 @@
 import * as views from "./views";
 
 export default st => `
-  ${views[st.page](st)};
-  `;
+<div id="main">${views[st.view](st)}</div>`;
