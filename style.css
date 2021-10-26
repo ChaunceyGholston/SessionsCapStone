@@ -1,21 +1,20 @@
 h1{
   box-sizing: border-box;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 50px;
   font-weight:100;
   text-align: center;
 }
-.navbar {
-  text-align: center;
-  list-style: none;
-  padding: 5px;
-  display: inline-flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+nav {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2{
-  font-family: 'Megrim', cursive;
+font-family: 'Oswald', sans-serif;
 }
 body{
   text-align: center;
@@ -24,7 +23,6 @@ body{
 
 img2{
   width: 50em;
-
 }
 
 .actions {
