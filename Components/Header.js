@@ -1,4 +1,4 @@
 export default st => `
 <header>
-    <h1>Sessions ${st.header}</h1>
+    <h1>  ${st.header}</h1>
 </header>`;
