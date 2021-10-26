@@ -11,11 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "stylelint": "^13.11.0",
-    "stylelint-config-prettier": "^6.0.0",
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-prettier": "^1.1.2",
-    "stylelint-vscode": "^7.0.0-6"
+
   },
   "dependencies": {
     "axios": "^0.23.0",
