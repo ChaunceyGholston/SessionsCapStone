@@ -1,13 +1,13 @@
 import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
-import Navigo from "Navigo";
+import navigo from "navigo";
 import { capitalize } from "lodash";
 import axios from "axios";
 import dotenv from "dotenv";
 
 dotenv.config();
 
-const router = new Navigo(window.location.origin);
+const router = new navigo(window.location.origin);
 
 router.hooks({
   before: (done, params) => {
