@@ -1,6 +1,6 @@
 export default links => `
 <nav>
-    <i class="fa-bars"></i>
+    <i class="fas fa-bars"></i>
     <ul class="hidden--mobile nav-links">
       ${links
         .map(

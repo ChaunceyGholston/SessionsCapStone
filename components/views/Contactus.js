@@ -1,8 +1,60 @@
 export default () => `
-<section id="bio">
-    <h2>Vivamus ac justo eu nisi</h2>
-    <img src="https://images.unsplash.com/photo-1510771463146-e89e6e86560e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="me">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sagittis nulla. Etiam semper mauris a quam tempus, non feugiat massa posuere. Morbi vitae nisi aliquam, semper diam id, molestie leo. In hac habitasse platea dictumst. Nulla et enim vel elit dictum viverra. Nunc pharetra lacinia arcu sit amet dignissim. Pellentesque ut mi nulla.</p>
-    <p>Quisque at hendrerit libero, eget interdum lectus. Etiam facilisis leo nulla, sit amet imperdiet nunc molestie vel. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur consectetur felis a purus volutpat, sed finibus magna iaculis. Pellentesque tristique tristique turpis nec vehicula. Maecenas varius quis tellus id mollis. Vivamus ut ultrices ligula.</p>
-    <p>Etiam egestas consectetur gravida. Nulla mollis suscipit sapien sed fermentum. Integer vitae eros a magna vulputate aliquam. Suspendisse sed pulvinar augue, auctor mollis lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis eleifend diam quis libero sollicitudin efficitur. Nullam sapien eros, tempor eget vulputate ut, interdum vel orci. Donec sit amet tempor mi. Nam feugiat cursus egestas. Suspendisse eget orci et ex mattis ornare tempor non tellus. Suspendisse gravida neque in urna congue bibendum. Duis dui odio, pharetra nec odio ac, ornare vulputate nibh.</p>
-  </section>`;
+<section id="Contactus">
+    <h2>Become a Artist!!</h2>
+    <div>
+      <p>Tell us about yourself</p>
+    </div>
+
+    <form action="cgholston89@gmail.com" method="POST"
+      <div>
+        <label>First Name</label>
+        <input type="text" name="name" id="firstname" required>
+      </div>
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="name" id="lastname" required>
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" name="name" id="email" required>
+      </div>
+      <div>
+        <p>Creative Category</p>
+      </div>
+
+      <ul>
+        <li>
+          <label>Visual Arts<label>
+          <input type="radio" name="visualarts" id="visual art">
+        </li>
+        <li>
+        <label>Photography<label>
+        <input type="radio" name="photograhpy" id="photography">
+      </li>
+      <li>
+      <label>Performance Media<label>
+      <input type="radio" name="performancemedia" id="performancemedia">
+    </li>
+    <li>
+    <label>Fashion<label>
+    <input type="radio" name="fashion" id="fashion">
+  </li>
+  <li>
+  <label>Other<label>
+  <input type="radio" name="order" id="other">
+</li>
+</ul>
+<p>Tell us more?!</p>
+How would you describe yourself and you style of art?
+<textarea>
+</textarea>
+<p>Show your Sessions pieces</p>
+<div>
+  <input type="file" id="myFile" name="file1">
+  <input type="file" id="myFile" name="file2">
+  <input type="file" id="myFile" name="file3">
+</div>
+      <input type="submit"/>
+    </form>
+
+    </section>`;

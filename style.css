@@ -1,19 +1,31 @@
-h1{
-  box-sizing: border-box;
+header {
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+}
+nav > ul{
+  display: inline-flex;
   font-family: 'Oswald', sans-serif;
-  font-size: 50px;
-  font-weight:100;
-  text-align: center;
+  list-style: none;
+  width: 90%;
+  justify-content: space-evenly;
+  background-color:rgba(92, 90, 89, 0.794);
+  color: white;
+  }
+nav{
+  color: white;
 }
 
-nav {
+h1{
+  font-family: font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+  font-weight: 500px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
 }
 
-.h2{
+h2{
   font-family: 'Oswald', sans-serif;
 }
 body{
@@ -21,19 +33,80 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img2{
-  width: 50em;
+.slider{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+    }
+.image-container {
+        width: 1500px;
+        background-color: white;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+.slide {
+        float: center;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+#slide-1:target ~ .image-container {
+        left: -425px;
+      }
+#slide-2:target ~ .image-container {
+        left: -500px;
+      }
+#slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+.buttons {
+        position: relative;
+        top: 100px;
+      }
+.buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: red;
+      }
+
+
+form  {
+  margin: 0 auto;
+  width: 500px;
+  border: black;
+  border: 10px solid;
 }
 
-.actions {
-  padding: 0 20px 20px 20px;
-  width: 600px;
-  border: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-bottom-color: black;
-  border-top: black;
-  border-right: black;
-  padding: 0 20px 20 px 20px;
-  list-style-type: none;
-  display: inline-flex;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 500px;
+  border: black;
+  border: 10px solid;
+  font-weight: 10;
+
+}
+form li + li {
+  margin-top: 1em;
+}
+textarea  {
+  width: 500px;
+  border: 10px, black;
+  border: 10px solid;
+}
+button {
+
 }
