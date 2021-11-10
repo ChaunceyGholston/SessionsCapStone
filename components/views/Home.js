@@ -22,10 +22,13 @@ like ${kelvinToFahrenheit(st.weather.feelsLike)}F
       <div class="image-container">
         <img src="https://i.pinimg.com/564x/4e/0e/be/4e0ebe451972b3982815eb006f0113eb.jpg">
         <a href="Contactus.js">
+        <div>
         <img src="https://users.stlcc.edu/departments/mcart/Images/gallery1.gif"
         width= "564"
-        height="376"
-        "Call for Art"/></a>
+        height="376"></a>
+        <h2 id="text">
+        FIND A SHOW </h2>
+        </div>
       </div>
       <div class="buttons">
         <a href="#slide-1"></a>

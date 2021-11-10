@@ -130,3 +130,7 @@ a:hover::before {
 #peacock {
   height: 100px;
 }
+#text {
+  z-index: 10;
+  margin-top: -200px;
+}
