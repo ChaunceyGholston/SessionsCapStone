@@ -21,8 +21,11 @@ like ${kelvinToFahrenheit(st.weather.feelsLike)}F
       <span id="slide-3"></span>
       <div class="image-container">
         <img src="https://i.pinimg.com/564x/4e/0e/be/4e0ebe451972b3982815eb006f0113eb.jpg">
-        <a href="Dawnartist.js"></a>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThGA01tpIbkSaPOp4iBRbU5lWROUpLuyit2Q&usqp=CAU">
+        <a href="Contactus.js">
+        <img src="https://users.stlcc.edu/departments/mcart/Images/gallery1.gif"
+        width= "564"
+        height="376"
+        "Call for Art"/></a>
       </div>
       <div class="buttons">
         <a href="#slide-1"></a>
@@ -31,7 +34,7 @@ like ${kelvinToFahrenheit(st.weather.feelsLike)}F
       </div>
     </div>
 
-        <div class="img2">
+    <div class="img2">
     </div>
 </div>`;
 
