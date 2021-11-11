@@ -5,7 +5,7 @@ export default [
   { title: "Contactus", text: "Contactus" },
   { title: "Kythiaartist", text: "Kythiaartist" },
   { title: "Dawnartist", text: "Dawnartist" },
-
+  { title: "Shawartist", text: "Shawartist" },
 
 
 ];
