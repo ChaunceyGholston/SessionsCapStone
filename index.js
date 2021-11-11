@@ -29,9 +29,11 @@ router.hooks({
           done();
         })
         .catch(err => console.log(err));
+      }
+      done();
     }
-  }
-});
+  });
+
 
 router
   .on({
