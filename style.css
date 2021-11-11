@@ -1,6 +1,8 @@
 header {
   font-family: 'Rock Salt', cursive;
   font-size: 30px;
+  height: 100px
+  ;
 }
 nav > ul{
   display: inline-flex;
@@ -22,7 +24,10 @@ h1{
   font-size: 30px;
   font-weight: 500px;
   text-align: center;
-  padding-bottom: 10px;
+  position: relative;
+  top:
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: black;
   color: white;
 }
@@ -52,8 +57,6 @@ body{
   height: 500px;
   clear: right;
   position: relative;
-  border: black;
-  border: 10px solid
   -webkit-transition: left 2s;
   -moz-transition: left 2s;
   -o-transition: left 2s;
@@ -130,7 +133,4 @@ a:hover::before {
 #peacock {
   height: 100px;
 }
-#text {
-  z-index: 10;
-  margin-top: -200px;
-}
+

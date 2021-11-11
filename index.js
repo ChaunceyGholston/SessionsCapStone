@@ -59,17 +59,17 @@ function render(st) {
 // add menu toggle to bars icon in nav bar
 function addEventListeners(st) {
   // add event listeners to Nav items for navigation
-  document.querySelectorAll("nav a").forEach(navLink =>
-    navLink.addEventListener("click", event => {
-      event.preventDefault();
-      render(state[event.target.title]);
-    })
-  );
-
+  //document.querySelectorAll("nav a").forEach(navLink =>
+  //  navLink.addEventListener("click", event => {
+   //   event.preventDefault();
+     // render(state[event.target.title]);
+    //})
+  //);
+//
   // add menu toggle to bars icon in nav bar
   document
     .querySelector(".fa-bars")
     .addEventListener("click", () =>
       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
-}
+  }
